@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const myConnection = require("express-myconnection");
 const path = require('path');
 const app = express();
